@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+
+
+div.weatherHead{
+    border: 1px solid transparent;
+    width: 250px;
+    height: 150px;
+    background-color: #FFF;
+    margin: 100px  auto ;
+    border-radius: 5px;
+    position: relative;
+}
+
+.weatherHead .head{
+    color: #3498DB;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:30px;
+    margin-top: 10px;
+    position: absolute;
+   
+
+    
+}
+
+body{
+    background-color: #3498DB;
+}
+button{
+    display: block;
+    border: transparent;
+    color: #FFF;
+    background-color: #3498DB;
+    padding: 10px 50px;
+    border-radius: 3px;
+    margin-left: 15px;
+    cursor: pointer;
+    
+}
+.name input{
+   margin:20px 18px;
+   width:210px;
+   padding: 5px;
+   border: 1px solid #999 ;
+   outline: none;
+
+}
+hr{
+    background-color:rgb(253, 245, 245) ;
+    margin-top: 35px;
+}
+
+div.weatherResult{
+    border: 1px solid transparent;
+    width: 250px;
+    height: 300px;
+    background-color: #FFF;
+    margin: 70px  auto ;
+    border-radius: 5px;
+    position: relative;
+    
+}
+
+.weatherResult .head{
+    color: #3498DB;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left:30px;
+    margin-top: 10px;
+    position: absolute;
+  
+   
+
+    
+}
+.weatherResult img{
+    margin-left: 80px;
+}
+h1{
+    margin-left: 80px;
+    font-size: 40px ;
+}
+p{
+    margin-left:32%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: small;
+    margin-top: 13px;
+}
+p:last-child{
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: small;
+    margin-top: 13px;
+}
+
+
+.all{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 30px;
+    position: relative;
+}
+.temperature{
+position: absolute;
+left: 0;
+padding-left: 5px;
+}
+.humidity{
+    position: absolute;
+    right: 0;
+    padding-right: 5px;
+}
