@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+   
+    background-color: blueviolet;
+}
+.container{
+    background-color: white;
+    border-radius: 2px;
+    width: 250px;
+    height: 300px ;
+}
+.right{
+    float: right;
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+    margin-right: 50px;
+    
+}
+h3{
+    text-align: center;
+    padding: 14px 0px;
+}
+section{
+    padding: 10px 10px;
+}
+.enter{
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+input{
+    outline-color: blueviolet;
+    height: 25px;
+    margin-top: 5px;
+    width: 97%;
+}
+.to{
+    font-size: 11px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.toright{
+    float: right;
+}
+button{
+    border: transparent;
+    background-color: blueviolet;
+    border-radius: 3px;
+    padding: 7px 40px;
+    cursor: pointer;
+    margin-left: 15px;
+    color: white;
+    margin-top: 10px;
+}
+select{
+    margin-top: 10px;
+}
